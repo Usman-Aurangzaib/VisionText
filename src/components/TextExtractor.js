@@ -31,7 +31,7 @@ const TextExtractor = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/extract-text",
+        "http://localhost:5000/api/extract-text",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
